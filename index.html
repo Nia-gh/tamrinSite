@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-gXt9imSW0VcJVHezoNQsP+TNrjYXoGcrqBZJpry9zJt8PCQjobwmhMGaDHTASo9N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body dir="rtl">
+    <div class="menu1">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <img src="img/cart.png" width="40">
+                <h5>سبد خرید</h5><a class="navbar-brand" href="#"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <li class="nav-item dropdown ms-4">
+                            <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                نیویورک
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">کاندا</a></li>
+                                <li><a class="dropdown-item" href="#">ایران</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <hr class="my-divider ms-4">
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link ms-3 active" aria-current="page" href="#">غذا</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link ms-4 active" aria-current="page" href="#">بازگشت</a>
+                        </li>
+                    </ul>
+
+                    <div class="switch">
+                        <span class="inner-switch">Dark</span>
+                    </div>
+
+                    <div><i class="bi bi-search h4 mt-1" style="margin-left: 20px;"></i>
+                        <i class="bi bi-person h3"></i>
+                    </div>
+                </div>
+        </nav>
+    </div>
+
+    <div class="header1">
+        <div class="col-lg-12 col-md-12">
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item my-items active">
+                        <img src="img/2.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block my-caption">
+                            <p>1# سیستم تحویل غذا از سال 1995</p>
+                            <h4>ما غذای مورد علاقه شما را به سرعت در نیویورک تحویل می دهیم.</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item my-items">
+                        <img src="img/4.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block my-caption">
+                            <p>1# سیستم تحویل غذا از سال 1995</p>
+                            <h4>ما غذای مورد علاقه شما را به سرعت در نیویورک تحویل می دهیم.</h4>
+                        </div>
+                    </div>
+                    <div class="carousel-item my-items">
+                        <img src="img/3.jpg" class="d-block w-100 img-fluid" alt="...">
+                        <div class="carousel-caption d-none d-md-block my-caption">
+                            <p>1# سیستم تحویل غذا از سال 1995</p>
+                            <h4> ما غذای مورد علاقه شما را به سرعت در نیویورک تحویل می دهیم.</h4>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="title1">
+        <h2 class="mt-5 pt-2">غذاهای پرطرفدار در شهر شما</h2>
+        <h5 class="mt-2 pt-2 text-muted">هرچه می خواهید انتخاب کنید تا ما ان را به شما تحویل
+            دهیم</h5>
+    </div>
+
+    <div class="product1 mt-5">
+        <div class="container" style="max-width: 1600px;">
+            <div class="row g-4 mb-5">
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow">
+                        <img src="img/12.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2">سوشی</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow">
+                        <img src="img/11.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2">نودل</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow">
+                        <img src="img/10.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2">سیب زمینی و برگر</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow">
+                        <img src="img/15.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2">غذای سالم</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow">
+                        <img src="img/14.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2">دسر</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card shadow">
+                        <img src="img/13.jpg" class="card-img-top " alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center mt-2">پیتزا و پاستا</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product2 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="row">
+                        <div class="card my-cardd me-2">
+                            <div class="card-body">
+                                <h3 class="card-title mt-3">با مراجعه به اپلیکیشن سبد خرید غذا سفارش دهید</h3>
+                                <p class="card-text mt-3">پرداخت با کیف پول در برنامه امتیازات وفاداری را جمع آوری کنید،
+                                    سفارشات خود را در زمان واقعی پیگیری کنید و موارد دیگر.</p>
+                                <a href="#" class="btn btn me-2 mt-3"><img src="img/appstore.jpg" alt=""></a>
+                                <a href="#" class="btn mt-3"><img src="img/appstore.jpg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <figure class="d-flex my-fig">
+                        <img src="img/mobile.jpg" class="my-mobile" alt="">
+                    </figure>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="product3">
+        <div class="container" style=" max-width: 1600px;">
+            <div class="row g-3">
+                <div class="col-lg-6">
+                    <div class="card bg-white text-black">
+                        <img src="img/20.jpg" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title1" style="font-size: 25px;">پیک شود</h5>
+                            <p class="card-text1 my-title" style="font-size: 20px;">دریافت حقوق رقابتی به عنوان پیک
+                                تحویل کار.</p>
+                            <a href="#" class="btn btn-danger">شروع درامد</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card bg-white text-black">
+                        <img src="img/20.jpg" alt="...">
+                        <div class="card-img-overlay">
+                            <h5 class="card-title1" style="font-size: 25px;">پیک شود</h5>
+                            <p class="card-text1 my-title" style="font-size: 20px;">دریافت حقوق رقابتی به عنوان پیک
+                                تحویل کار.</p>
+                            <a href="#" class="btn btn-danger">شروع درامد</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="title1">
+        <h3 class="mt-5 pt-2">رستوران محبوب در شهر شما</h3>
+        <h5 class="mt-2 pt-2 text-muted">بهترین رستوران نزدیکتان را برسی کنید</h5>
+    </div>
+
+    <div class="product4 mt-5">
+        <div class="container mb-5" style=" max-width: 1600px;">
+            <div class="row g-4">
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/roa.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/asi.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/car.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/chr.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/gar.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/dom.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/gri.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/kfc.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/kin.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/mcd.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/moo.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 col-6">
+                    <div class="card shadow">
+                        <img src="img/piz.jpg" class="card-img-top" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="costomers">
+        <div class="container border shadow mt-5" style="max-width: 1600px;">
+            <h3 class="mt-3 mb-5" style="text-align: center;">نظرات مشتریان</h3>
+            <div class="row">
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card shadow-sm" style="border:0 none;">
+                        <a href="#"><img src="img/star.jpg" alt="" style="margin-top: 23px;"></a>
+                        <p style="margin-top: 10px; margin-right: 10px;">پرداخت با کیف پول در برنامه امتیازات وفاداری را
+                            جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه
+                            پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و
+                            موارد دیگر.</p>
+                    </div>
+                    <div class="mb-3 mt-4 cost_1">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/30.jpg" class="ms-5 mt-3 cost_img" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ms-4">
+                                    <h5>ریچارد دیویس</h5>
+                                    <p>26/11/1399</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card shadow-sm" style="border:0 none;">
+                        <a href="#"><img src="img/star.jpg" alt="" style="margin-top: 23px;"></a>
+                        <p style="margin-top: 10px; margin-right: 10px;">پرداخت با کیف پول در برنامه امتیازات وفاداری را
+                            جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه
+                            پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و
+                            موارد دیگر.</p>
+                    </div>
+                    <div class="mb-3 mt-4 cost_1">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/30.jpg" class="ms-5 mt-3 cost_img" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ms-4">
+                                    <h5>ریچارد دیویس</h5>
+                                    <p>26/11/1399</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card shadow-sm" style="border:0 none;">
+                        <a href="#"><img src="img/star.jpg" alt="" style="margin-top: 23px;"></a>
+                        <p style="margin-top: 10px; margin-right: 10px;">پرداخت با کیف پول در برنامه امتیازات وفاداری را
+                            جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه
+                            پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و
+                            موارد دیگر.</p>
+                    </div>
+                    <div class="mb-3 mt-4 cost_1">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/30.jpg" class="ms-5 mt-3 cost_img" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ms-4">
+                                    <h5>ریچارد دیویس</h5>
+                                    <p>26/11/1399</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-6 col-md-6">
+                    <div class="card shadow-sm" style="border:0 none;">
+                        <a href="#"><img src="img/star.jpg" alt="" style="margin-top: 23px;"></a>
+                        <p style="margin-top: 10px; margin-right: 10px;">پرداخت با کیف پول در برنامه امتیازات وفاداری را
+                            جمع آوری کنید، سفارشات خود را در زمان واقعی ردیابی کنید و موارد دیگر را با کیف پول برنامه
+                            پرداخت کنید. امتیازات وفاداری را جمع آوری کنید، سفارشات خود را در زمان واقعی پیگیری کنید و
+                            موارد دیگر.</p>
+                    </div>
+                    <div class="mb-3 mt-4 cost_1">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <img src="img/30.jpg" class="ms-5 mt-3 cost_img" alt="">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body ms-4">
+                                    <h5>ریچارد دیویس</h5>
+                                    <p>26/11/1399</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12960.306347435966!2d51.3380361!3d35.6997329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dff1b08d30b1b%3A0xa6654a6df848512!2sAzadi%20Square!5e0!3m2!1sen!2sus!4v1689704803221!5m2!1sen!2sus"
+                        width="1296" height="365" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col-12">
+                    <h2 class="contact-title">اطلاعات تماس</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="/" method="post" id="contactForm"
+                        novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                        placeholder=" متن پیام"></textarea>
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="name" id="name" type="text"
+                                        placeholder="نام و نام خانوادگی">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="email" id="email" type="email"
+                                        placeholder="ایمیل">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text" placeholder="موضوع">
+                                    <div class="error"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">ارسال</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 offset-lg-1">
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="bi bi-house-door-fill"></i></span>
+                        <div class="media-body">
+                            <h3>ایران، تهران</h3>
+                            <p>میدان آزادی</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="bi bi-tablet-fill"></i></span>
+                        <div class="media-body">
+                            <h3>02112345678</h3>
+                            <p>شنبه تا پنج شنبه ساعت 8 الی 20</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="bi bi-envelope-at-fill"></i></span>
+                        <div class="media-body">
+                            <h3>
+                                <a href="mailto:designer@sitranet.com" class="__cf_email__">designer@sitranet.com</a>
+                            </h3>
+                            <p>ایمیل مجموعه</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <div class="customers2">
+        <div class="container border shadow mt-5">
+            <div class="row">
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <a href="#" style="text-decoration: none;">
+                        <h3 class="item">سبد خرید</h3>
+                    </a>
+                    <div class="d-flex mt-4">
+                        <a href="#" class="btn border text-white mt-2"><i class="bi bi-caret-down-fill"></i> &/Eng <img
+                                src="img/flag.png" alt="" style="width: 30px;"></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <a class="it1" href="#">
+                        <h5 class="item1">به ما بپیوندید</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">مشاغل</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">رستوران</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">پیک شوید</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">درباره ما</h6>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <a class="it1" href="#">
+                        <h5 class="item1">کمک به شما</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">مرکز کمک</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">پشتیبانی</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">مخاطبین</h6>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <a class="it1" href="#">
+                        <h5 class="item1">مارا دنبال کنید</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">فیسبوک</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">توییتر</h6>
+                    </a>
+                    <a class="it1" href="#">
+                        <h6 class="item2">اینستاگرام</h6>
+                    </a>
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-sm-6 col-6">
+                    <a class="it1" href="#">
+                        <h5 class="item1">اپلیکیشن مارا دانلود کنید</h6>
+                    </a>
+                    <div class="d-flex mt-4" style="margin-right: 80px;">
+                        <a href="#" class="btn border text-white" style="border-radius: 11px;"><img
+                                src="img/appstore.jpg" alt=""></a>
+                    </div>
+
+                    <div class="d-flex" style="margin-right: 290px; margin-top: -60px;">
+                        <a href="#" class="btn border text-white" style="border-radius: 11px;"><img src="img/and.jpg"
+                                alt=""></a>
+                    </div>
+                </div>
+
+                <div class="row mt-4 last-row">
+                    <div class="col-lg-12">
+                        <div class="row mt-4 last-row">
+                            <div class="col-lg-12">
+                                <nav class="navbar navbar-expand-lg pt-4"
+                                    style="border-top: 1px solid rgba(204, 204, 204, 0.411);background-color: transparent;">
+                                    <div class="container-fluid p-0 m-0">
+                                        <a class="navbar-brand disabled" href="#"
+                                            style="margin-right: 900; color: white; font-size: 14px;">.All
+                                            rights reserved. Made by Soheil Jafari@</a>
+                                        <div class="collapse navbar-collapse p-0 m-0" id="navbarSupportedContent">
+                                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                            </ul>
+                                            <div class="d-flex">
+                                                <a class="nav-link" href="#"
+                                                    style="color: white; font-size: 14px;">Privacy Policy</a>
+                                                <a class="nav-link" href="#"
+                                                    style="color: white; font-size: 14px;">Terms & Conditions</a>
+                                                <a class="nav-link" href="#"
+                                                    style="color: white; font-size: 14px;">Cookies Policy</a>
+                                            </div>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+    <div id="back-top">
+        <a title="Go to Top" href="#"><i class="bi bi-arrow-up"></i></a>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="./main.js"></script>
+
+</body>
+
+</html>

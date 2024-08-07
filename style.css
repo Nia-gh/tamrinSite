@@ -1,0 +1,485 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar .my-divider {
+    border-right: 1px solid black;
+    height: 35px;
+    margin: 5px;
+
+}
+
+
+.header1 .my-caption {
+    background-color: rgba(245, 245, 245, 0.708);
+    color: black;
+    font-size: 25px;
+    width: 60%;
+    transform: translateX(-7%);
+    bottom: 10%;
+    padding: 3px;
+    border-radius: 20px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .carousel .my-items {
+        height: 460px;
+    }
+
+    .my-items img {
+        min-height: 460px;
+    }
+
+    .header1 .my-caption {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel .my-items {
+        height: 360px;
+    }
+
+    .my-items img {
+        min-height: 360px;
+    }
+
+    .header1 .my-caption {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel .my-items {
+        height: 300px;
+    }
+
+    .my-items img {
+        min-height: 300px;
+    }
+
+    .header1 .my-caption {
+        font-size: 14px;
+    }
+}
+
+.title1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.product1 .card-img-top {
+    height: 280px;
+    object-fit: cover;
+}
+
+.my-title {
+    width: 90%;
+}
+
+.product3 .card-img-overlay {
+    margin-right: 300px;
+    margin-top: 10px;
+}
+
+
+.product4 .card shadow {
+    border: 0 none;
+    height: 160px;
+}
+
+.my-cardd {
+    background: transparent;
+    color: white;
+    width: 70%;
+    border: 0 none;
+    margin-top: 130px;
+}
+
+.product2 {
+    width: 100%;
+    height: 660px;
+    background: url(img/mob.jpg) repeat-x;
+    background-size: 15% 100%;
+    overflow: hidden;
+}
+
+.product2 .my-mobile {
+    margin: auto;
+    display: block;
+    margin-top: 110px;
+    width: 430px;
+}
+
+.costomers {
+    background-color: rgb(240, 255, 255);
+
+}
+
+.costomers .cost_img {
+    display: block;
+    border-radius: 100%;
+    width: 55px;
+    height: 55px;
+}
+
+.costomers .cost_1 {
+    border: none;
+    background: transparent;
+}
+
+.customers2 .container {
+    background-color: rgba(43, 52, 69, 1);
+    max-width: 1600px;
+}
+
+.customers2 .item {
+    color: white;
+    margin-top: 70px;
+    margin-right: 20px;
+    font-size: 30px;
+}
+
+.customers2 .btn {
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.customers2 .it1 {
+    text-decoration: none;
+}
+
+.customers2 .item1 {
+    color: white;
+    margin-right: 100px;
+    margin-top: 80px;
+}
+
+.customers2 .it1 {
+    text-decoration: none;
+    color: rgba(179, 167, 167, 0.938);
+    margin-right: 100px;
+}
+
+.customers2 .item2 {
+    text-decoration: none;
+    color: rgba(179, 167, 167, 0.938);
+    margin-right: 100px;
+}
+
+
+.switch {
+    align-self: flex-end;
+    margin: 0.9375rem;
+}
+
+.inner-switch {
+    display: inline-block;
+    cursor: pointer;
+    border: 1px solid #555;
+    border-radius: 1.25rem;
+    width: 3.125rem;
+    text-align: center;
+    font-size: 1rem;
+    padding: 0.1875rem;
+    margin-left: 0.3125rem;
+}
+
+.dark,
+.dark * {
+    background-color: #222;
+    color: #e6e6e6;
+    border-color: #e6e6e6;
+}
+
+.media {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex
+}
+
+.form-group {
+    margin-bottom: 1rem
+}
+
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s
+}
+
+.contact-info {
+    margin-bottom: 25px
+}
+
+.contact-info__icon {
+    margin-left: 20px
+}
+
+.contact-info__icon i,
+.contact-info__icon span {
+    color: #8f9195;
+    font-size: 27px
+}
+
+.contact-info .media-body h3 {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2a2a2a
+}
+
+.contact-info .media-body h3 a:hover {
+    color: #1f2b7b
+}
+
+.contact-info .media-body p {
+    color: #8a8a8a
+}
+
+.contact-title {
+    font-size: 27px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.form-contact label {
+    font-size: 14px
+}
+
+.form-contact .form-group {
+    margin-bottom: 30px
+}
+
+.form-contact .form-control {
+    border: 1px solid #e5e6e9;
+    border-radius: 15px;
+    height: 48px;
+    padding-left: 18px;
+    font-size: 13px;
+    background: transparent
+}
+
+.form-contact .form-control:focus {
+    outline: 0;
+    box-shadow: none
+}
+
+.form-contact .form-control::placeholder {
+    font-weight: 300;
+    color: #999999
+}
+
+.form-contact textarea {
+    border-radius: 0px;
+    height: 100% !important
+}
+
+.contact-section {
+    padding: 130px 0 100px
+}
+
+@media (max-width: 991px) {
+    .contact-section {
+        padding: 70px 0 40px
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .contact-section {
+        padding: 80px 0 50px
+    }
+}
+
+.boxed-btn {
+    background: #fff;
+    color: #00a4a6 !important;
+    display: inline-block;
+    padding: 18px 44px;
+    font-family: "IRANSans", serif;
+    font-size: 14px;
+    font-weight: 400;
+    border: 0;
+    border: 1px solid #00a4a6;
+    text-align: center;
+    color: #00a4a6;
+    cursor: pointer
+}
+
+.boxed-btn:hover {
+    background: #00a4a6;
+    color: #fff !important;
+    border: 1px solid #00a4a6
+}
+
+.boxed-btn:focus {
+    outline: none
+}
+
+.card-img,
+.form-group input,
+.boxed-btn,
+.media img {
+    border-radius: 15px !important;
+}
+
+.form-group #name:focus,
+.form-group #password:focus,
+.cupon_area input:focus,
+.billing_details .form-group #number:focus,
+.billing_details .form-group #id:focus,
+.login-form-area input[type=text]:focus,
+.login-form-area input[type=password]:focus,
+.register-form-area input[type=text]:focus,
+.register-form-area input[type=password]:focus,
+#contactForm .form-group #email:focus,
+#contactForm .form-group.mt-3,
+aside .form-control[type="email"]:focus {
+    text-align: left;
+}
+
+.billing_details .contact_form .form-group {
+    margin-bottom: 20px
+}
+
+.billing_details .contact_form .form-group input {
+    border-radius: 3px;
+    color: #797979
+}
+
+.billing_details .contact_form .form-group input.placeholder {
+    color: #797979
+}
+
+.billing_details .contact_form .form-group input:-moz-placeholder {
+    color: #797979
+}
+
+.billing_details .contact_form .form-group input::-moz-placeholder {
+    color: #797979
+}
+
+.billing_details .contact_form .form-group input::-webkit-input-placeholder {
+    color: #797979
+}
+
+.billing_details .contact_form .form-group textarea {
+    height: 150px;
+    border-radius: 15px;
+    padding: 20px 20px;
+    margin-top: 15px
+}
+
+.shipping_box .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.billing_details .contact_form .form-group .country_select,
+.cart_inner .table tbody tr.shipping_area .shipping_box .shipping_select {
+    width: 100%;
+    text-align: right !important;
+}
+
+.billing_details .contact_form .form-group .country_select::after {
+    right: 97% !important;
+}
+
+.cart_inner .table tbody tr.shipping_area .shipping_box .shipping_select:after {
+    right: 95%;
+}
+
+.billing_details .contact_form .form-group .country_select span {
+    color: #797979
+}
+
+.billing_details .contact_form .form-group .country_select .list {
+    width: 100%;
+    border-radius: 0px
+}
+
+.billing_details .contact_form .form-group .country_select .list li {
+    font-size: 14px;
+    font-family: "IRANSans", sans-serif;
+    text-align: right;
+    font-weight: normal
+}
+
+.billing_details .contact_form .form-group .creat_account #f-option3 {
+    margin-right: 5px
+}
+
+.billing_details .contact_form .form-group .creat_account a {
+    color: #00a4a6
+}
+
+.col-md-12.form-group .btn {
+    margin-right: auto;
+}
+
+
+
+
+.form-group.success input {
+    border-color: #09c372;
+}
+
+.form-group.error input {
+    border-color: #ff3860;
+}
+
+.form-group .error {
+    color: black;
+    font-size: 9px;
+    height: 13px;
+}
+
+.form-group.success textarea {
+    border-color: #09c372;
+}
+
+.form-group.error textarea {
+    border-color: #ff3860;
+}
+
+@media only screen and (max-width: 1199.99px) {
+    .map iframe {
+        width: 100%;
+    }
+}
+
+
+#back-top {
+    background: #00a4a6;
+    height: 50px;
+    width: 50px;
+    right: 31px;
+    bottom: 18px;
+    position: fixed;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 48px;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px 3px rgba(108, 98, 98, 0.2)
+}
+
+@media (max-width: 575.99px) {
+    #back-top {
+        right: 16px
+    }
+}
+
+#back-top a i {
+    display: block;
+    line-height: 50px
+}
